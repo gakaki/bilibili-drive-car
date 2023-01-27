@@ -1,6 +1,8 @@
 {
   "tasks": {
-    "start": "deno run -A --watch=static/,routes/ dev.ts"
+    "start": "deno run -A --watch=static/,routes/ dev.ts",
+    "oak": "deno run -A --watch=. oak_test.ts"
+
   },
   "importMap": "./import_map.json",
   "compilerOptions": {
