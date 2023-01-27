@@ -7,9 +7,10 @@
 //https://deno.land/x/croner@5.4.1
 import Cron from "https://deno.land/x/croner@5.4.1/src/croner.js";
 
-// Cron("* * * * * *", () => {
-//     console.log("[cron] bilibili Fetch JSON To Redis");
-// });
+Cron("* * * * * *", () => {
+    
+    console.log("[cron] bilibili Fetch JSON To Redis");
+});
 
 import { start } from "$fresh/server.ts";
 import manifest from "./fresh.gen.ts";
